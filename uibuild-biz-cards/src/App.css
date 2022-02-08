@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+@media screen and (max-width: 800px) {
+  .container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 62px;
+  }
+}
+
+body {
+  background-color: #ffeedf;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 62px;
+  padding: 27px;
+}
+.card1 {
+  width: 290px;
+  height: 416px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card2 {
+  width: 290px;
+  height: 416px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card3 {
+  width: 290px;
+  height: 416px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #33793f;
+  font-size: 48px;
+  font-family: "EB Garamond";
+}
+
+h6 {
+  color: #999;
+  font-size: 14px;
+  font-family: "Montserrat";
+  letter-spacing: 0.1rem;
+}
+
+p {
+  color: #999;
+  font-size: 24px;
+  font-family: "EB Garamond";
+}
